@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <description>A detailed description of the product or service, including features and benefits.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Provide a detailed description of the product or service, including features and benefits.</inlineHelpText>
+    <label>Description</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>12</visibleLines>
+</CustomField>

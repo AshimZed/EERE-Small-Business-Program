@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company__c</fullName>
+    <description>Represents the small business account providing the specified product or service within the EERE program, ensuring a direct link between the offering and the business.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the small business account that offers this product or service. This connection helps maintain accurate data on which businesses are contributing specific offerings to the EERE program.</inlineHelpText>
+    <label>Company</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Products &amp; Services</relationshipLabel>
+    <relationshipName>Offerings</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

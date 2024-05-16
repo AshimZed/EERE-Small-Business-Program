@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_Date__c</fullName>
+    <description>The starting date when the grant, deal, or agreement becomes active, indicating the beginning of its funding or operational timeline.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the date on which this grant, deal, or agreement starts. This marks the official beginning of funding or services.</inlineHelpText>
+    <label>Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

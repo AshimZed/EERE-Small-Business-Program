@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offering__c</fullName>
+    <description>Establishes a link between the grant, deal, or agreement and the specific product or service offering, enabling accurate tracking and association of funding with the appropriate offerings.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the related product or service offering that this grant, deal, or agreement is associated with. This connection helps ensure proper allocation and management of funding tied to specific offerings.</inlineHelpText>
+    <label>Offering</label>
+    <referenceTo>Offering__c</referenceTo>
+    <relationshipLabel>Grants</relationshipLabel>
+    <relationshipName>Grants</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

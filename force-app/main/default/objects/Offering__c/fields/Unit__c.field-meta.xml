@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit__c</fullName>
+    <description>Indicates the standard unit of measurement or sale for the product or service being offered, providing a basis for pricing and quantity calculations.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the standard unit in which this product or service is typically measured or sold (e.g., &apos;each,&apos; &apos;hour,&apos; &apos;kWh&apos;). This will help accurately represent quantities and pricing in grants, deals, or agreements.</inlineHelpText>
+    <label>Unit</label>
+    <length>12</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

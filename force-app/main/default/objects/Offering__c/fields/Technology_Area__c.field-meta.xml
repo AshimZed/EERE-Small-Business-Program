@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology_Area__c</fullName>
+    <description>Indicates the specific area of technology associated with the product or service offered. This classification helps align offerings with the relevant FOA&apos;s (Funding Opportunity Announcements) technology sectors, facilitating targeted funding and support within the EERE program.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the technology area that best describes the core technology or sector related to this offering.</inlineHelpText>
+    <label>Technology Area</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advanced Materials and Manufacturing</fullName>
+                <default>false</default>
+                <label>Advanced Materials and Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Bioenergy</fullName>
+                <default>false</default>
+                <label>Bioenergy</label>
+            </value>
+            <value>
+                <fullName>Buildings</fullName>
+                <default>false</default>
+                <label>Buildings</label>
+            </value>
+            <value>
+                <fullName>Geothermal</fullName>
+                <default>false</default>
+                <label>Geothermal</label>
+            </value>
+            <value>
+                <fullName>Hydrogen and Fuel Cell</fullName>
+                <default>false</default>
+                <label>Hydrogen and Fuel Cell</label>
+            </value>
+            <value>
+                <fullName>Industrial Efficiency and Decarbonization</fullName>
+                <default>false</default>
+                <label>Industrial Efficiency and Decarbonization</label>
+            </value>
+            <value>
+                <fullName>Solar Energy</fullName>
+                <default>false</default>
+                <label>Solar Energy</label>
+            </value>
+            <value>
+                <fullName>Water Power</fullName>
+                <default>false</default>
+                <label>Water Power</label>
+            </value>
+            <value>
+                <fullName>Wind Energy</fullName>
+                <default>false</default>
+                <label>Wind Energy</label>
+            </value>
+            <value>
+                <fullName>Vehicle</fullName>
+                <default>false</default>
+                <label>Vehicle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

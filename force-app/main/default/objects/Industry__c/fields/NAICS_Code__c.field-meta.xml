@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NAICS_Code__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>A unique identifier that aligns a business account with the relevant industry classification as defined by the North American Industry Classification System (NAICS). This standardized code enables precise industry categorization and facilitates accurate business analysis and reporting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the NAICS code that matches the classification as defined by the North American Industry Classification System (NAICS).</inlineHelpText>
+    <label>NAICS Code</label>
+    <length>6</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

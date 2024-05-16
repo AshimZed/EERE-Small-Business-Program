@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <description>Indicates the specific category or type of product or service offered by small businesses in the EERE program, providing insight into the business&apos;s specialization.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the category that best describes the product or service offered. This helps classify offerings within the EERE program, facilitating easier management and analysis of business activities.</inlineHelpText>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advanced Manufacturing</fullName>
+                <default>false</default>
+                <label>Advanced Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Biomass Energy</fullName>
+                <default>false</default>
+                <label>Biomass Energy</label>
+            </value>
+            <value>
+                <fullName>Carbon Capture and Storage (CCS)</fullName>
+                <default>false</default>
+                <label>Carbon Capture and Storage (CCS)</label>
+            </value>
+            <value>
+                <fullName>Combined Heat and Power (CHP)</fullName>
+                <default>false</default>
+                <label>Combined Heat and Power (CHP)</label>
+            </value>
+            <value>
+                <fullName>Electric Vehicles</fullName>
+                <default>false</default>
+                <label>Electric Vehicles</label>
+            </value>
+            <value>
+                <fullName>Energy Efficiency</fullName>
+                <default>false</default>
+                <label>Energy Efficiency</label>
+            </value>
+            <value>
+                <fullName>Energy Storage</fullName>
+                <default>false</default>
+                <label>Energy Storage</label>
+            </value>
+            <value>
+                <fullName>Geothermal Energy</fullName>
+                <default>false</default>
+                <label>Geothermal Energy</label>
+            </value>
+            <value>
+                <fullName>Hydrogen and Fuel Cells</fullName>
+                <default>false</default>
+                <label>Hydrogen and Fuel Cells</label>
+            </value>
+            <value>
+                <fullName>Hydropower</fullName>
+                <default>false</default>
+                <label>Hydropower</label>
+            </value>
+            <value>
+                <fullName>Marine and Hydrokinetic Energy</fullName>
+                <default>false</default>
+                <label>Marine and Hydrokinetic Energy</label>
+            </value>
+            <value>
+                <fullName>Microgrids</fullName>
+                <default>false</default>
+                <label>Microgrids</label>
+            </value>
+            <value>
+                <fullName>Nuclear Energy</fullName>
+                <default>false</default>
+                <label>Nuclear Energy</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Renewable Fuels</fullName>
+                <default>false</default>
+                <label>Renewable Fuels</label>
+            </value>
+            <value>
+                <fullName>Smart Grid</fullName>
+                <default>false</default>
+                <label>Smart Grid</label>
+            </value>
+            <value>
+                <fullName>Solar Energy</fullName>
+                <default>false</default>
+                <label>Solar Energy</label>
+            </value>
+            <value>
+                <fullName>Waste-to-Energy</fullName>
+                <default>false</default>
+                <label>Waste-to-Energy</label>
+            </value>
+            <value>
+                <fullName>Wind Energy</fullName>
+                <default>false</default>
+                <label>Wind Energy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
